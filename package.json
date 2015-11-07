@@ -1,0 +1,21 @@
+{
+  "name": "nodegular",
+  "version": "1.0.0",
+  "description": "Node and Angular mashup using NEDB as a backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Angular",
+    "NEdb"
+  ],
+  "author": "Arnold Kizzitoh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "faker": "^3.0.1",
+    "nedb": "^1.2.1"
+  }
+}
