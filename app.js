@@ -5,8 +5,6 @@ var Nedb = require('nedb');
 
 var db = new Nedb({ filename: 'db/data.db', autoload:true }); //instantiate nedb
 
-var router = express.Router();              // get an instance of the express Router
-
 app.get('/', function(req, res) {
     res.sendFile('/site/index.html', { root: __dirname });
 });
